@@ -528,6 +528,7 @@ p {
 .form {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1040px;
 }
 
 
@@ -545,7 +546,7 @@ p {
     border: 1px solid #E7EAE7;
     border-radius: 5px;
     height: 50px;
-    max-width: 400px;
+    max-width: 340px;
     width: 100%;
     padding: 15px;
     font-weight: 400;
@@ -601,6 +602,20 @@ p {
     border-left-style: none;
 }
 
+.three-content .nice-select {
+    height: 50px;
+    color: #484B5E;
+    display: flex;
+    align-items: center;
+}
+
+.fourth-content .nice-select {
+    height: 50px;
+    color: #484B5E;
+    display: flex;
+    align-items: center !important;
+}
+
 .three-content {
     display: flex;
 }
@@ -620,7 +635,7 @@ p {
     border: 1px solid #E7EAE7;
     border-radius: 5px;
     height: 50px;
-    max-width: 400px;
+    max-width: 340px;
     width: 100%;
     padding: 15px;
     font-weight: 400;
@@ -746,6 +761,11 @@ p {
     color: #5F6065;
 }
 
+.cotogory-one .nice-select {
+    height: 50px;
+    padding-top: 5px;
+}
+
 .cotogory-two {
     display: flex;
     flex-direction: column;
@@ -849,6 +869,11 @@ p {
     font-size: 16px;
     line-height: 21px;
     color: #5F6065;
+}
+
+.city-two .nice-select {
+    height: 50px;
+    padding-top: 5px;
 }
 
 .price {
@@ -975,13 +1000,129 @@ input[type = 'file'] {
 
 .form-img {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.fomr-card1 {
-    background: #FFFFFF;
-    border: 1px solid #E7EAE7;
-    border-radius: 5px;
+.form-header {
+    width: 100%;
+    display: flex;
 }
+
+.form-header i {
+    position: absolute;
+    background: #EBEBFA;
+    border: 1px solid #D0D0D2;
+    color: #979798;
+    border-radius: 50%;
+    top: 35px;
+    left: 40px;
+}
+
+
+.form-header h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #979CA8;
+    padding-top: 40px;
+}
+
+
+.form-card1 {
+    background: #FFFFFF;
+    border: 1px solid #E9E8EE;
+    border-radius: 5px;
+    height: 170px;
+    width: 100%;
+    max-width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.form-card1 i {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    padding-top: 34px;
+    color: #6A5BCD;
+}
+
+.form-card1 p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #9A9CA8;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.form-img-rows {
+    display: flex;
+    max-width: 1020px;
+    width: 100%;
+    gap: 5px;
+}
+
+.form-imgOne {
+    display: flex;
+    padding-top: 20px;
+}
+
+.form-card-two {
+    position: relative;
+    width: 172px;
+    height: 172px;
+}
+
+.form-card-two i {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    border: 1px solid #EA4135;
+    color: #EA4135;
+    border-radius: 50%;
+    background: #FCE4E2;
+}
+
+.form-end {
+    background: #6A5BCD;
+    border-radius: 5px;
+    margin-top: 40px;
+    max-width: 270px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.form-end p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+#column-row-two {
+    padding: 20px;
+}
+
+#column-row-tw {
+    margin-top: 50px;
+}
+
+.nice-select.open .list {
+    width: 100%;
+}
+
 /*new announcement end*/
 
 
@@ -1785,6 +1926,10 @@ input[type=search] {
     text-decoration: none;
 }
 
+.ad-announcement a:hover {
+    color: #FFFFFF;
+}
+
 #plus {
     margin-right: 10px;
     color: #FFFFFF;
@@ -2173,7 +2318,7 @@ padding: 15px 10px 0 5px;
 
 .one {
     display: flex;
-    padding-top: 100px;
+    padding-top: 50px;
     align-items: center;
     font-size: 18px;
     color: #9A9CA8;
@@ -2213,7 +2358,7 @@ padding: 15px 10px 0 5px;
 .two-content-column {
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 .two-content-column p {
@@ -2239,7 +2384,7 @@ padding: 15px 10px 0 5px;
 .third-content-column {
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 100px;
     
 }
 
@@ -2255,7 +2400,7 @@ padding: 15px 10px 0 5px;
 .fourth-contetn-column {
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 .fourth-contetn-column h3 {

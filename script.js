@@ -36,5 +36,14 @@ $(".box-mark").click(function(){
 })
 
 $(".search-box").click(function() {
-    $(".headerSearchOnclick").toggleClass("active")
+    $(".headerSearchOnclick").addClass("active")
 })
+
+$(".catogory").click(function() {
+    $(".headerSearchOnclick").removeClass("active")
+})
+
+
+$(document).ready(function() {
+    $('select').niceSelect();
+});
