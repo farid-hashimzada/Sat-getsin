@@ -1126,6 +1126,163 @@ input[type = 'file'] {
 /*new announcement end*/
 
 
+/*watch style start*/
+
+.watch-content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #75767E;
+    padding: 56px 0 40px 0;
+}
+
+
+.watch-img {
+    width: 100%;
+    max-width: 405px;
+    height: 353px;
+}
+
+.watch-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.watch-about-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.watch-about-header h2 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    color: #606167;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.watch-sticker {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.watch-icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.watch-icon i {
+    margin-right: 5px;
+    color: #C1C1CC;
+    font-size: 20px;
+}
+
+
+.watch-sticker span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #979798;
+    margin-right: 25px;
+}
+
+.watch-user {
+    width: 647px;
+    height: 149px;
+    background: #F2F4FD;
+    border: 1px solid #DBDCF6;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.watch-user p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #8C8D95;
+    padding-bottom: 10px;
+}
+
+.wtach-seller {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wtach-seller h5 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #595961;
+}
+
+.wtach-seller p {
+    background: #F5FFF7;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #408647;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+.watch-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.phone-contact {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.phone-contact i {
+    color: #ADADB6;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.phone-contact span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7B7C85;
+}
+
+.wp-conatct { 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.wp-conatct i {
+    color: #ADADB6;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.wp-conatct span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7B7C85;
+}
+
+/*watch style end*/
+
+
+
 /*start modal-popup*/
 .modal-body {
     display: flex;
