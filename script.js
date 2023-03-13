@@ -47,3 +47,5 @@ $(".catogory").click(function() {
 $(document).ready(function() {
     $('select').niceSelect();
 });
+
+
