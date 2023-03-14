@@ -48,4 +48,16 @@ $(document).ready(function() {
     $('select').niceSelect();
 });
 
+$(".information-two p:first-child").click(function(){
+    $(".information-two p").removeClass("active")
+    $(this).addClass("active")
+    $(".information-content").css("display","block")
+    $(".watch-feature").css("display","none")
+})
 
+$(".information-two p:last-child").click(function(){
+    $(".information-two p").removeClass("active")
+    $(this).addClass("active")
+    $(".information-content").css("display","none")
+    $(".watch-feature").css("display","block")
+})
