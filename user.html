@@ -33,7 +33,7 @@
             <div class="cont">
                 <nav class="nav-box">
                     <div class="nav-left">
-                        <img  src="./logo/Vector.png" alt="facebook" style="width: 10px; height: 18px;">
+                        <img src="./logo/Vector.png" alt="facebook" style="width: 10px; height: 18px;">
                         <img src="./logo/instagram.png" alt="instagram">
                     </div>
                     <div class="midle">
@@ -45,7 +45,7 @@
                     <div class="nav-right">
                         <img src="./all img/avatar.png" alt="person" style="cursor: pointer;">
                         <p style="cursor: pointer">Aytən</p>
-                       
+
                     </div>
                 </nav>
             </div>
@@ -137,17 +137,34 @@
                         <div class="premium-row">
                             <h2>Premium elanlar</h2>
                         </div>
-                        
+
                         <div class="user-row">
                             <div class="user-rowone">
-                                <p>Bütün elanlar</p>
+                                <p onclick="dropdown()">Bütün elanlar</p>
                                 <i class="material-icons">expand_more</i>
+                                <div class="user-rowone-dropdown" id="drop">
+                                    <span>Bütün elanlar</span>
+                                    <span>Yalnız Premium elanlar</span>
+                                    <span>Yalnız VİP elanlar</span>
+                                    <span>İrəli çəkilən elanlar</span>
+                                </div>
                             </div>
                             <p>Aktivdir</p>
                             <p>Vaxtı bitib</p>
                             <p>Yoxlanışdadır</p>
                             <p>Ləğv edilib</p>
-                            <i class="material-icons"> more_vert</i>
+                            <div class="dropdown-2" >
+                                <i class="material-icons" onclick="dropdownTwo()"> more_vert</i>
+                                    <div class="dropdown-two" id="dropTwo">
+                                        <span>Elanını Premium et</span>
+                                        <span>Elanını VİP et</span>
+                                        <div class="case-4">
+                                            <span>Elanını irəli çək</span>
+                                            <span>1₼</span>
+                                        </div>
+                                        <span>Elan sil</span>
+                                    </div>
+                            </div>
                         </div>
                         <div class="image-row2">
                             <div class="card-1">
@@ -415,6 +432,10 @@
                 </div>
             </footer>
 
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+            integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="./script.js"></script>
     </body>
 
 </html>

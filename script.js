@@ -61,3 +61,37 @@ $(".information-two p:last-child").click(function(){
     $(".information-content").css("display","none")
     $(".watch-feature").css("display","block")
 })
+
+
+
+// user hesabin dropdownlari
+
+// document.querySelector('.user-rowone')
+
+// let drop = document.getElementById('drop')
+// function dropdown() {
+//     if (drop.style.display === 'flex'){
+//         drop.style.display = 'none'
+//     }else{
+//         drop.style.display = 'flex'
+//     }
+
+// }
+
+$(".user-rowone p").click(function(){
+    $(this).parent().toggleClass("active")
+})
+
+
+let dropTwo = document.getElementById('dropTwo')
+function dropdownTwo() {
+    if (dropTwo.style.opacity === '1') {
+        dropTwo.style.opacity = '0'
+        dropTwo.style.visibility = 'hidden'
+        dropTwo.style.height = '0'
+    } else {
+        dropTwo.style.opacity = '1'
+        dropTwo.style.visibility = 'visible'
+        dropTwo.style.height = '176px'
+    }
+}
