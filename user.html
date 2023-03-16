@@ -42,10 +42,26 @@
                         <h4> Yardım və dəstək</h4>
                     </div>
 
-                    <div class="nav-right">
-                        <img src="./all img/avatar.png" alt="person" style="cursor: pointer;">
-                        <p style="cursor: pointer">Aytən</p>
-
+                    <div class="nav-right" id="">
+                        <img src="./all img/avatar.png" alt="person" style="cursor: pointer;" onclick="userDropdown()">
+                        <p style="cursor: pointer" onclick="userDropdown()">Aytən</p>
+                        <div class="userAccount" id="dropdownCase">
+                            <div class="caseOne">
+                                <i class="material-icons">notifications </i>
+                                <span>Bildirişlər</span>
+                            </div>
+                            <div class="caseOne">
+                                <i class="material-icons">wallet</i>
+                                <span>Balansım</span>
+                            </div>
+                            <div class="caseOne">
+                                <i class="material-icons">settings</i>
+                                <span>Ayarlar</span>
+                            </div>
+                            <div class="caseTwo">
+                                <p>Çıxış</p>
+                            </div>
+                        </div>
                     </div>
                 </nav>
             </div>

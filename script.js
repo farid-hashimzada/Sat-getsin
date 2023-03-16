@@ -95,3 +95,15 @@ function dropdownTwo() {
         dropTwo.style.height = '176px'
     }
 }
+
+
+//userin dropdowunuu
+let dropThree = document.getElementById('dropdownCase')
+function userDropdown() {
+    console.log("salam")
+    if (dropThree.style.display === 'flex') {
+        dropThree.style.display = 'none'
+    } else {
+        dropThree.style.display ='flex'
+    }
+}

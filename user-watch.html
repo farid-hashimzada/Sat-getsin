@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+        integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"
+        integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="head">
+        <div class="cont">
+            <nav class="nav-box">
+                <div class="nav-left">
+                    <img src="./logo/Vector.png" alt="facebook" style="width: 10px; height: 18px;">
+                    <img src="./logo/instagram.png" alt="instagram">
+                </div>
+                <div class="midle">
+                    <img src="./logo/phone.png" alt="phone">
+                    <p>(+994) 70 256 24 89</p>
+                    <h4> Yardım və dəstək</h4>
+                </div>
+
+                <div class="nav-right" id="">
+                    <img src="./all img/avatar.png" alt="person" style="cursor: pointer;" onclick="userDropdown()">
+                    <p style="cursor: pointer" onclick="userDropdown()">Aytən</p>
+                    <div class="userAccount" id="dropdownCase">
+                        <div class="caseOne">
+                            <i class="material-icons">notifications </i>
+                            <span>Bildirişlər</span>
+                        </div>
+                        <div class="caseOne">
+                            <i class="material-icons">wallet</i>
+                            <span>Balansım</span>
+                        </div>
+                        <div class="caseOne">
+                            <i class="material-icons">settings</i>
+                            <span>Ayarlar</span>
+                        </div>
+                        <div class="caseTwo">
+                            <p>Çıxış</p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        </nav>
+        <!--header start-->
+
+        <div class="header-midle">
+            <div class="header-left">
+                <h2>Logo</h2>
+            </div>
+            <div class="search-panel">
+                <button class="box-mark">
+                    <img src="./all img/multi.png" alt="multi">
+                    Kateqoriya seçin
+                </button>
+                <input type="search" class="search-box" placeholder="Axtaracağınız məhsul,elan,kateqoriyanı yazın">
+                <img class="search-img" src="./all img/search.png" alt="search">
+                <div class="headerSearchOnclick">
+                    <div class="location">
+                        <i class="material-icons">location_on</i>
+                        <span>Şəhər əlavə edin</span>
+                        <div class="last-line"></div>
+                    </div>
+
+                    <div class="last-search">
+                        <p>Ən son axtarılanlar</p>
+                        <div class="last-options">
+                            <a href="#">iphone12 </a>
+                            <a href="#">Ofis</a>
+                            <a href="#">Dibçək</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <div class="header-hearth">
+                    <i class="material-icons">favorite</i>
+                </div>
+                <div class="content">
+                    <p>seçilənlər</p>
+                </div>
+                <div class="ad-announcement">
+                    <a href="#" target="_blank">
+                        <i id="plus" class="material-icons">add</i>
+                        <a href="http://127.0.0.1:5500/new-announcement.html">Yeni elan</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="user-watch-main">
+        <div class="cont">
+            <div class="col-2">
+                <div class="usw-header">
+                    <div class="uwm-img">
+                        <img src="./all img/image 76.png" alt="watch">
+                        <i class="material-icons">delete</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="uwm-content">
+                    <h1>Qadın qol saatı “Skmei El Luminous”</h1>
+                    <span>Elan nömrəsi: 5535131</span>
+                </div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="cont">
+              <p>Paketlərimiz</p>
+            </div>
+        </div>
+        <div class="user-watch-section">
+            <div class="cont">
+                <div class="col-4">
+
+                </div>
+                <div class="col-4">
+
+                </div>
+                <div class="col-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
