@@ -1775,6 +1775,70 @@ input[type='file'] {
 }
 
 
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.go-pull {
+    display: flex;
+    align-items: center;
+}
+
+.go-pull h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #484B5E;
+    display: flex;
+    width: fit-content;
+    padding: 40px 5px 30px 30px;
+}
+
+.go-pull p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #656569;
+    padding: 40px 10px 30px 10px;
+    color: #52B979;
+}
+
+.go-pull i {
+    color: #5CC684;
+    font-size: 20px;
+    margin: 0 5px 0px 10px;
+}
+
+.go-pullOne {
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 15px;
+    max-width: 200px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.go-pullOne * {
+    margin-left: 15px;
+}
+
+.go-pull-content span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #979798;
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    padding-top: 30px;
+}
+
+
+
+
 /*user and*/
 
 
