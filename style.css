@@ -1473,6 +1473,10 @@ input[type='file'] {
     justify-content: space-between;
 }
 
+#col-9 .popupUser {
+    z-index: 999;
+}
+
 .user-card {
     width: 30%;
     width: 272px;
@@ -1836,7 +1840,111 @@ input[type='file'] {
     padding-top: 30px;
 }
 
+.user-popup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    border-radius: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    display: none;
+}
 
+.background-black {
+    background: black;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.popupUser {
+    z-index: 22;
+    max-width: 626px;
+    width: 100%;
+    height: 400px;
+    background: #FFFFFF;
+}
+
+.popupUser .close-popup {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    color: #B2B1AF;
+    position: relative;
+    cursor: pointer;
+    right: 20px;
+    top: 10px;
+}
+
+/* .popupUser .popup-done {
+    border: 2px solid #408647;
+   
+} */
+
+.popupUser .popup-done i {
+    display: flex;
+    font-size: 50px;
+    color: #408647;
+    border: 2px solid #408647;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.popup-done {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.popupContent p {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 16px;
+    color: #656569;
+    padding-bottom: 25px;
+}
+
+.popupContent span {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #B2B1AF;
+}
+
+.popupButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.popupButton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 250px;
+    height: 47px;
+    background: #408647;
+}
+
+.popupButton a:hover {
+    color: #F2F4FD;
+}
 
 
 /*user and*/

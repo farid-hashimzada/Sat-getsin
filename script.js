@@ -1,5 +1,3 @@
-
-
 let passwordOne = document.getElementById("password-one")
 
 function showPassword() {
@@ -106,4 +104,25 @@ function userDropdown() {
     } else {
         dropThree.style.display ='flex'
     }
+}
+
+// popupu uze cxarmaq ucun
+//birde x click etdikde close olmasi
+  
+let show = document.getElementById('userPop')
+let blackArea = document.getElementById('blackaClose')
+let blackAreaTwo = document.querySelector('blackaClose')
+
+
+
+function showPopup() {
+    show.style.display = 'flex'
+}
+
+function closePopup() {
+    show.style.display = 'none'
+}
+
+function closeBlack() {
+    show.style.display = 'none'
 }

@@ -29,6 +29,7 @@
     </head>
 
     <body>
+        <a href="#test" style="color: orangered">go to all all announcement</a>
         <header class="head">
             <div class="cont">
                 <nav class="nav-box">
@@ -182,6 +183,25 @@
                                     </div>
                             </div>
                         </div>
+                        <div class="user-popup" id="userPop">
+                            <div class="background-black" id="blackaClose" onclick="closeBlack()"></div>
+                
+                            <div class="popupUser">
+                                <div class="close-popup">
+                                    <i class="material-icons" onclick="closePopup()" id="closePop">close</i>
+                                </div>
+                                <div class="popup-done">
+                                    <i class="material-icons">done</i>
+                                </div>
+                                <div class="popupContent">
+                                    <p>Uğurlu</p>
+                                    <span>№ 7123 və № 354 nömrəli elan VİP elan edildi</span>
+                                </div>
+                                <div class="popupButton">
+                                    <a href="#">Davam edin</a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="image-row2">
                             <div class="card-1">
                                 <div class="img-2">
@@ -192,7 +212,7 @@
                                     <p>3 ₼ <span class="day">/ 5 gün</span></p>
                                 </div>
                                 <div class="premium-box">
-                                    <a href="#">Premium et</a>
+                                    <a href="#" onclick="showPopup()">Premium et</a>
                                 </div>
                             </div>
                             <div class="card-2">
@@ -381,7 +401,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="sectiontwo-bottom">
+                <div id="test" class="sectiontwo-bottom">
                     <p>Bütün premium elanları göstər</p>
                 </div>
             </section>
