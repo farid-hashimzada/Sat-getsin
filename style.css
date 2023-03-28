@@ -1871,6 +1871,7 @@ input[type='file'] {
     width: 100%;
     height: 400px;
     background: #FFFFFF;
+    border-radius: 10px;
 }
 
 .popupUser .close-popup {
@@ -2684,7 +2685,7 @@ input[type='file'] {
 
 
 .search-box {
-    width: 683px;
+    width: 500px;
     height: 46px;
     background: #FFFFFF;
     border: 1px solid #E7EAE7;
