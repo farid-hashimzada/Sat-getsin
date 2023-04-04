@@ -2703,6 +2703,8 @@ input[type=search] {
     border: 1px solid #ccc;
     font-size: 16px;
     background-color: none;
+    width: 682px;
+
 }
 
 .search-panel {
